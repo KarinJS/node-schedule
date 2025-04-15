@@ -25,6 +25,9 @@
     "karinjs",
     "karin"
   ],
+  "files":[
+    "dist"
+  ],
   "author": "shijin",
   "license": "MIT",
   "devDependencies": {
