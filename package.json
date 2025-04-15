@@ -1,0 +1,39 @@
+{
+  "name": "@karinjs/node-schedule",
+  "version": "0.0.1",
+  "description": "Recompile node-schedule and convert it to esm, which is smaller in size",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "type": "module",
+  "homepage": "https://github.com/karinjs/node-schedule",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karinjs/node-schedule.git"
+  },
+  "scripts": {
+    "build": "vite build && tsup",
+    "pub": "npm publish --access public",
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "schedule",
+    "task",
+    "job",
+    "cron",
+    "recurrent",
+    "in-memory",
+    "karinjs",
+    "karin"
+  ],
+  "author": "shijin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18",
+    "@types/node-schedule": "^2.1.7",
+    "node-schedule": "^2.1.1",
+    "terser": "^5.39.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.2.6"
+  }
+}
