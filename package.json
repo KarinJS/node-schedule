@@ -1,6 +1,6 @@
 {
   "name": "@karinjs/node-schedule",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Recompile node-schedule and convert it to esm, which is smaller in size",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
